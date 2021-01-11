@@ -1,0 +1,38 @@
+.DetailCard{
+    background-color:black;
+    color:white;
+    border: rgb(197, 197, 193) solid 1px;
+    padding:20px;
+   font-size: 20px;
+   text-align: start;
+   display:flex;
+   margin:20px;
+   width:95%;
+} 
+.Details{
+    padding-left:  50px;
+
+}
+
+.Details p{
+    font-size: medium;
+}
+.DetailCard .poster{
+    padding-top:10px;
+}
+.video{
+    padding-top:20px;
+}
+.back-btn{
+    width:300px;
+    color:white;
+    padding:5px;
+    margin-top:3px;
+    background-color: black;
+}
+.back-btn:hover{
+    color:gold;
+    font-size:120%;
+    background-color: black;
+    }
+  

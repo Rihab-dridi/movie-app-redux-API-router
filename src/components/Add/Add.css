@@ -1,0 +1,48 @@
+ .Add{
+     background-color: black;
+     text-align: start;
+     margin-top:25px;
+     padding:0;
+ }
+ .add-btn{
+color: gold;
+font-size:300px;
+background-color: black;
+width:365px;
+height:95%;
+margin-left: 20px;
+
+
+
+}
+.add-btn:hover{
+background-color:gold ;
+color:black;
+}
+
+
+.Modal{
+    width:80%;
+    height: 80%;
+    margin-left:10%;
+    margin-top: 5%;
+    background-color: rgba(0, 0, 0, 0.589);
+    text-align: center;
+    padding-top: 10px;
+}
+
+.Modal input{
+    width:80%;
+    height:35px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.Modal button{
+    width:100px;
+    height:35px;
+    background-color: white;
+    font-size: medium;
+    margin: 5px;
+    align-self: flex-end;
+}

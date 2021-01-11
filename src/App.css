@@ -1,0 +1,61 @@
+.App {
+  text-align: center;
+}
+
+
+*{
+  margin:0;
+  padding:0;
+  
+}
+
+
+
+.movieList{
+  background-color: cyan;
+}
+
+.star-btn{
+  background-color: black;
+  border-color: black;
+}
+
+Link:visited{
+  text-decoration:none;
+}
+.homeImg{
+ width:70%;
+  height:50%;
+  padding-top:50px
+} 
+.homeImg:hover{
+  transform:rotate(.99turn)
+}
+.noun{
+  animation: yourAnimation 1s forwards 0s linear;
+}
+
+@keyframes yourAnimation{
+  0%{
+      transform: rotate(0)  translateX(5px) translateY(0);
+      opacity: 0;
+      }
+  29%{
+      transform: rotate(0)  translateX(10px) translateY(0);
+      opacity: 0.5;
+      }
+  49%{
+      transform: rotate(0)  translateX(15px) translateY(0);
+      opacity: 0.7;
+      }
+  70%{
+      transform: rotate(0)  translateX(18px) translateY(0);
+      opacity: 0.8;
+      }
+  100%{
+    transform:  translateX(20px) ;
+      opacity: 1;
+  }
+}
+
+

@@ -1,0 +1,55 @@
+.navbar{
+    display:flex;
+    justify-content: space-between;
+    border-bottom: black solid 0.3px;
+    color: white;
+    background-color: black;
+    padding-bottom: 10px;
+    vertical-align: baseline;
+    
+}
+li{
+    text-decoration: none;
+    color : white;
+    font-size:20px;
+    padding:6px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+li:hover{
+    text-decoration:none;
+    background-color: rgb(37, 37, 37);
+    border-radius: 10px;
+    
+}
+a.visited{
+    text-decoration:none;
+    color : white
+}
+
+.items {
+    font-family: sans-serif;
+    display:flex;
+    justify-content: space-around;
+    align-self: flex-end;
+    width:400px;
+    list-style: none;
+    font-size: small;
+    padding: 0px auto 0px 15px;
+    margin-top:5;
+    margin-bottom: 5px;
+    color: white;
+    padding-right:10px
+  }
+
+.noun{
+font-family: 'Times New Roman', Times, serif; 
+font-size:30px;
+font-weight: 100;
+padding-top: 3px;
+
+margin-top:0px;
+margin-bottom: 0px;
+
+}
+  
